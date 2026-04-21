@@ -265,3 +265,74 @@
     cursor: pointer;
     z-index: 3;
   }
+
+  /* =========================
+   RESPONSIVE - TABLET / HP
+   ========================= */
+
+/* iPhone & HP (≤ 768px) */
+@media (max-width: 768px) {
+
+  .one {
+    font-size: 2.2rem;
+  }
+
+  .three {
+    font-size: 1.8rem;
+  }
+
+  .four .text-box {
+    width: 90%;
+  }
+
+  .five p {
+    font-size: 1.3rem;
+  }
+
+  .five .idea-5 {
+    font-size: 2.5rem;
+  }
+
+  .idea-6 span {
+    font-size: 6rem;
+  }
+
+  .six img {
+    height: 220px;
+  }
+
+  .six .hat {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    top: -25%;
+  }
+
+  .wish-hbd {
+    font-size: 2rem;
+  }
+
+  .wish h5 {
+    font-size: 1.2rem;
+    padding: 0 15px;
+  }
+
+  .nine p {
+    font-size: 1.2rem;
+  }
+}
+
+/* =========================
+   LAPTOP (default tetap)
+   ========================= */
+@media (min-width: 1024px) {
+
+  .four .text-box {
+    width: 600px;
+  }
+
+  .six img {
+    height: 350px;
+  }
+
+}
